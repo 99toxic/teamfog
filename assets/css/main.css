@@ -252,11 +252,10 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		font-family: Raleway, Helvetica, sans-serif;
+		font-family: Helvetica, sans-serif;
 		font-weight: 700;
 		letter-spacing: 0.1em;
 		margin: 0 0 1em 0;
-		text-transform: uppercase;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -4160,4 +4159,8 @@ input, select, textarea {
 .inner h2 span {
   font-family: serif;
   text-transform: lowercase;
+}
+
+.inner p span {
+  text-transform: capitalize;
 }
