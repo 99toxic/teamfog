@@ -3457,7 +3457,6 @@ input, select, textarea {
 			font-weight: 200;
 			letter-spacing: 0.1em;
 			line-height: 2;
-			text-transform: uppercase;
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -4155,12 +4154,3 @@ input, select, textarea {
 	}
 
 /* My CSS */
-
-.inner h2 span {
-  font-family: serif;
-  text-transform: lowercase;
-}
-
-.inner p span {
-  text-transform: capitalize;
-}
